@@ -1,0 +1,27 @@
+/* src/MainGraph.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chart-container {
+    flex: 1 1 50%;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.pie-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    min-width: 300px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .chart-container,
+    .pie-container {
+        flex: 1 1 100%;
+    }
+}
